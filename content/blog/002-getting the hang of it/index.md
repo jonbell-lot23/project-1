@@ -1,6 +1,6 @@
 ---
-title: Getting the Hang of It
-date: "2021-02-27T22:40:32.169Z"
+title: Getting the hang of It
+date: "2021-02-27T22:41:32.169Z"
 description: Things seem to be going ok
 ---
 

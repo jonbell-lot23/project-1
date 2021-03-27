@@ -1,5 +1,5 @@
 ---
-title: My First Post
+title: My first post
 date: "2021-02-27T22:40:32.169Z"
 description: This is me figuring out my first post.
 ---
