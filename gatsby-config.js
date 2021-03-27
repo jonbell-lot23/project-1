@@ -6,12 +6,30 @@ module.exports = {
       summary: `an author and curious fellow living in New Zealand.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://gatsby.lot23.com/`,
     social: {
       twitter: `jonbell`,
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-source-mysql`,
+      options: {
+        connectionDetails: {
+          host: "66.147.244.101",
+          user: process.env.MY_ENV_VAR,
+          password: process.env.FUCK,
+          database: "uxlaunch_general",
+        },
+        queries: [
+          {
+            statement: "SELECT * FROM enthusiasticpanther_songs",
+            idFieldName: "name",
+            name: "songs",
+          },
+        ],
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
