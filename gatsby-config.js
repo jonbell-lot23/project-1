@@ -17,8 +17,8 @@ module.exports = {
       options: {
         connectionDetails: {
           host: "66.147.244.101",
-          user: process.env.MY_ENV_VAR,
-          password: process.env.FUCK,
+          user: process.env.FUCK,
+          password: process.env.MY_ENV_VAR,
           database: "uxlaunch_general",
         },
         queries: [
