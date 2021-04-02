@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Panther from "../components/panther"
+import Song from "../components/song"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -33,9 +34,7 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <hr />
-        <footer>
-          <Panther />
-        </footer>
+        <footer></footer>
       </article>
       <nav className="blog-post-nav">
         <ul

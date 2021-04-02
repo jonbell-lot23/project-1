@@ -24,7 +24,7 @@ module.exports = {
         queries: [
           {
             statement: "SELECT * FROM enthusiasticpanther_songs",
-            idFieldName: "name",
+            idFieldName: "id",
             name: "songs",
           },
         ],

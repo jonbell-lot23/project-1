@@ -18,7 +18,7 @@ export default function Panther() {
   const songs = data.allMysqlSongs.nodes
 
   return (
-    <panther>
+    <Panther>
       <h1>{songs.length} songs</h1>
 
       {songs.map(song => {
@@ -26,6 +26,6 @@ export default function Panther() {
 
         return <li>{song.name}</li>
       })}
-    </panther>
+    </Panther>
   )
 }
